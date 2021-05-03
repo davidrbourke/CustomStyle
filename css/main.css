@@ -48,6 +48,9 @@ input {
   border-radius: 0;
 }
 
+/*
+https://fonts.google.com/specimen/Lato
+*/
 @font-face {
   font-family: "Lato";
   src: url("D:/dev/CustomStyle/fonts/Lato-Italic.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-Italic.woff") format("woff");
@@ -164,6 +167,24 @@ h6 {
   font-style: normal;
   font-size: 30px;
   padding: 1rem;
+}
+
+.c-button-primary {
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 2px;
+}
+
+.c-button-primary:hover {
+  background-color: lightblue;
+}
+
+.c-button-primary:active {
+  background-color: green;
 }
 
 /*# sourceMappingURL=main.css.map */

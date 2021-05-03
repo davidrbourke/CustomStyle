@@ -1,0 +1,23 @@
+$primary-background-color: blue;
+$primary-font-color: white;
+
+$primary-background-hover-color: lightblue;
+$primary-background-active-color: green;
+
+.c-button-primary {
+  background-color: $primary-background-color;
+  color: $primary-font-color;
+  font-size: $font-size-default * 1.5 + px;
+  padding: $spacing-size-default / 2;
+  margin: $spacing-size-default / 2;
+  border: none;
+  border-radius: 2px;
+}
+
+.c-button-primary:hover {
+  background-color: $primary-background-hover-color;
+}
+
+.c-button-primary:active {
+  background-color: $primary-background-active-color;
+}
