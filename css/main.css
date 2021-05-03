@@ -1,0 +1,169 @@
+/*
+Source: https://boag.online/blog/my-sass-reset
+*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("D:/dev/CustomStyle/fonts/Lato-Italic.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato Hairline";
+  src: url("D:/dev/CustomStyle/fonts/Lato-HairlineItalic.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-HairlineItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("D:/dev/CustomStyle/fonts/Lato-BoldItalic.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("D:/dev/CustomStyle/fonts/Lato-BlackItalic.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("D:/dev/CustomStyle/fonts/Lato-Regular.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("D:/dev/CustomStyle/fonts/Lato-LightItalic.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("D:/dev/CustomStyle/fonts/Lato-Light.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("D:/dev/CustomStyle/fonts/Lato-Black.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato Hairline";
+  src: url("D:/dev/CustomStyle/fonts/Lato-Hairline.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-Hairline.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("D:/dev/CustomStyle/fonts/Lato-Bold.woff2") format("woff2"), url("D:/dev/CustomStyle/fonts/Lato-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+h1 {
+  font-family: "Lato";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 70px;
+  padding: 1rem;
+}
+
+h2 {
+  font-family: "Lato";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 60px;
+  padding: 1rem;
+}
+
+h3 {
+  font-family: "Lato";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  padding: 1rem;
+}
+
+h4 {
+  font-family: "Lato";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+  padding: 1rem;
+}
+
+h5 {
+  font-family: "Lato";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  padding: 1rem;
+}
+
+h6 {
+  font-family: "Lato";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */

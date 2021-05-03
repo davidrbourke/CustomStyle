@@ -1,0 +1,38 @@
+$font-size-default: 10;
+$spacing-size-default: 1rem;
+
+h1 {
+  font-family: 'Lato'; font-weight: bold; font-style: normal;
+  font-size: $font-size-default * 7 + px;
+  padding: $spacing-size-default;
+}
+
+h2 {
+  font-family: 'Lato'; font-weight: bold; font-style: normal;
+  font-size: $font-size-default * 6 + px;
+  padding: $spacing-size-default;
+}
+
+h3 {
+  font-family: 'Lato'; font-weight: bold; font-style: normal;
+  font-size: $font-size-default * 5 + px;
+  padding: $spacing-size-default;
+}
+
+h4 {
+  font-family: 'Lato'; font-weight: bold; font-style: normal;
+  font-size: $font-size-default * 4 + px;
+  padding: $spacing-size-default;
+}
+
+h5 {
+  font-family: 'Lato'; font-weight: normal; font-style: normal;
+  font-size: $font-size-default * 4 + px;
+  padding: $spacing-size-default;
+}
+
+h6 {
+  font-family: 'Lato'; font-weight: normal; font-style: normal;
+  font-size: $font-size-default * 3 + px;
+  padding: $spacing-size-default;
+}
